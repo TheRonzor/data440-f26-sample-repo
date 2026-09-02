@@ -22,3 +22,5 @@ Other files included are:
 
 - [`src/paths.py`](src/paths.py): This file contains a list of the file/folder paths used by the workflow. Some people might incorporate this into something like a `config.py` file
 - [`src/helpers.py`](src/helpers.py): This file contains helper/utility functions that are intended to be shared across modules.
+
+Additionally, within each of these files the code is organized into functions, each of which is intended to do one job (again, separation of responsibilities!)
